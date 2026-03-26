@@ -28,3 +28,17 @@ git clone https://github.com/seu-usuario/macgnome.git
 cd macgnome
 chmod +x install.sh
 ./install.sh
+```
+
+## 🔄 Apply changes
+
+After installation, you need to reload GNOME for the changes to take effect.
+
+### Recommended (most reliable)
+Log out and log back in.
+
+### Alternative (may work)
+Restart GNOME Shell:
+
+- Press `Alt + F2`
+- Type `r` and press Enter (X11 only)
