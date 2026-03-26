@@ -13,6 +13,7 @@ Minimal macOS-style window control buttons for GNOME (GTK4).
 
 ## ⚠️ Limitations
 
+- I just teste in Fedora 43 (Gnome 49)
 - Works ONLY on GTK4 apps
 - Does NOT affect:
   - Firefox
