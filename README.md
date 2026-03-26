@@ -2,7 +2,7 @@
 
 Minimal macOS-style window control buttons for GNOME (GTK4).
 
-![https://github.com/Vascon11/Fedora-_Customizado/blob/main/Pictures/Captura%20de%20tela%20de%202026-03-26%2015-22-06.png?raw=true]()
+![https://github.com/Vascon11/Fedora-_Customizado/blob/main/Pictures/Captura%20de%20tela%20de%202026-03-26%2015-22-06.png?raw=true](https://raw.githubusercontent.com/Vascon11/Fedora-_Customizado/refs/heads/main/Pictures/Captura%20de%20tela%20de%202026-03-26%2015-22-06.png)
 
 ## ✨ Features
 
