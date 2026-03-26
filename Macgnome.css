@@ -1,0 +1,82 @@
+/* ~/.config/gtk-4.0/gtk.css */
+
+/* 1. Headerbar */
+headerbar, 
+.titlebar {
+  min-height: 34px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* 2. Botões */
+windowcontrols button {
+  box-sizing: border-box;
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  padding: 0;
+  margin: 10px 5px;
+  border-radius: 100%;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/* 3. Ícones (corrigido) */
+windowcontrols button image {
+  opacity: 0;
+  -gtk-icon-size: 10px; /* mantém válido */
+  color: inherit;
+  -gtk-icon-style: symbolic;
+}
+
+/* === CORES BASE === */
+windowcontrols button.close { 
+  background: #ff5f57; 
+  color: #ff5f57; 
+}
+
+windowcontrols button.minimize { 
+  background: #febc2e; 
+  color: #febc2e; 
+}
+
+windowcontrols button.maximize { 
+  background: #28c840; 
+  color: #28c840; 
+}
+
+/* === HOVER (ícones aparecem com contraste suave) === */
+
+/* CLOSE */
+windowcontrols button.close:hover {
+  background: #ff5f57;
+  color: #8b1e1e;
+}
+
+/* MINIMIZE */
+windowcontrols button.minimize:hover {
+  background: #febc2e;
+  color: #8a6a00;
+}
+
+/* MAXIMIZE */
+windowcontrols button.maximize:hover {
+  background: #28c840;
+  color: #0f5c2e;
+}
+
+/* Mostrar ícone no hover */
+windowcontrols button:hover image {
+  opacity: 1;
+  -gtk-icon-size: 12px;
+  min-width: 12px;
+  min-height: 12px;
+}
+
+/* === JANELA INATIVA === */
+windowcontrols button:backdrop {
+  background: #636363 !important;
+  opacity: 0.5;
+}
